@@ -12,7 +12,8 @@
     "test:ci": "npm run _test -- --coverage",
     "_test": "NODE_ENV=development jest",
     "bundle": "NODE_ENV=production rollup -c",
-    "prepublish": "npm run bundle"
+    "prepublish": "npm run bundle",
+    "install": "npm run bundle"
   },
   "repository": {
     "type": "git",
